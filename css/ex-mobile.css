@@ -1,0 +1,55 @@
+    @media screen and (max-width:768px) {
+        .excursion-container h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        .tours-img img {
+            width: 238px;
+            height: 444px;
+        }
+    }
+    
+    @media screen and (max-width:590px) {
+        .excursion-container h1 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 44px;
+        }
+        .tours-card {
+            flex-direction: column;
+            margin-left: 0;
+        }
+        .tours-text {
+            margin: 20px 10px;
+        }
+        .tour {
+            width: 244px;
+        }
+        .tours-btns img {
+            display: none;
+        }
+        .tours-img img {
+            width: 350px;
+            height: 240px;
+        }
+        .filter-btn {
+            display: block;
+        }
+        .f-c {
+            display: block;
+            transition: .3s;
+        }
+        .filtr {
+            transition: .3s;
+            display: none;
+        }
+        .filtr-active {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 1%;
+            background: #fff;
+            width: 320px;
+        }
+    }

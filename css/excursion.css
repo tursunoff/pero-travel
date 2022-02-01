@@ -1,0 +1,375 @@
+.excursion-header {
+    min-height: 289px;
+    max-height: 510px;
+}
+
+.excursion-container h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.excursion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.excursion-content ul li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    transition: .3s;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    margin: 5px;
+}
+
+.excursion-content ul {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.excursion-content ul li:hover {
+    color: #0499DD;
+    border-bottom: 1px solid #0499dd;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.catalog-inner {
+    width: 235px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.catalog-inner h1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    transition: .3s;
+}
+
+.catalog-inner h1:hover {
+    color: #0499dd;
+}
+
+.catalog-inner img {
+    width: 20px;
+    height: 20px;
+}
+
+.c-btn {
+    color: #0499dd;
+    transition: .3s;
+    justify-content: center;
+    border: 1px solid #0499dd;
+}
+
+.c-btn:hover {
+    background: linear-gradient(92.71deg, #0499dd 0%, #17C1BC 100%);
+    color: #fff;
+}
+
+.filtr-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.filtr {
+    width: 295px;
+    height: auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.filtr-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #0499dd;
+    padding: 10px;
+    border-radius: 30%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10%;
+    z-index: 11111;
+    display: none;
+}
+
+.blue {
+    color: #0499dd;
+    margin: 10px;
+}
+
+.filtr-desc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.filtr-desc h1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.filtr-desc p {
+    font-size: 25px;
+    line-height: 25px;
+    color: #0499dd;
+    cursor: pointer;
+}
+
+.number {
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filtr-line {
+    width: 77px;
+    height: 3px;
+    background-color: #0499dd;
+    border-radius: 15px;
+    position: relative;
+    margin: 20px auto 0 auto;
+}
+
+.filtr-line::before,
+.filtr-line::after {
+    content: ' ';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #0499dd;
+    border-radius: 50%;
+}
+
+.filtr-line::before {
+    top: -2px;
+    left: -10px;
+}
+
+.filtr-line::after {
+    top: -2px;
+    right: -10px;
+}
+
+.peoplegroup {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -30px;
+}
+
+.people-btn {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    margin: 5px 2px;
+    border-radius: 40px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+}
+
+.people-btn:hover {
+    background: linear-gradient(92.71deg, #0499dd 0%, #17C1BC 100%);
+    color: #fff;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.place h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+label input[type=radio] {
+    margin-right: 10px;
+}
+
+.filtr-btn {
+    width: 225px;
+    height: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: .3s;
+    margin: 20px auto;
+    border: none;
+    visibility: ;
+}
+
+.filter-btn {
+    width: auto;
+    height: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: .3s;
+    border: none;
+    padding: 0 15px;
+    margin-left: 15px;
+    display: none;
+}
+
+.filtr-btn:hover {
+    color: #0499dd;
+    background: #fff;
+    border: 1px solid #0499dd;
+}
+
+.reset {
+    color: #000;
+    background: #fff;
+    border: none;
+}
+
+.reset:hover {
+    color: #0499dd;
+    background: #fff;
+    border: 1px solid #0499dd;
+}
+
+.tours-group {
+    margin-left: 15px;
+}
+
+.tour-filter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tours-group h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #0499dd;
+    margin-bottom: 20px;
+}
+
+.tours-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 20px 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 779px;
+    height: auto;
+    min-width: 319px;
+}
+
+.tours-text {
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.tours-text h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.tours-text h5 {
+    color: #ffc700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -10px;
+}
+
+.tours-text p font {
+    color: #0499dd;
+    margin-top: 20px;
+}
+
+.tours-text h6 {
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 10px;
+}
+
+.tours-img img {
+    width: 238px;
+    height: 303px;
+}
+
+.border {
+    padding-left: 10px;
+    display: block;
+    border: none;
+    border-left: 2px solid #0499dd;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+.tours-btns {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+.tour {
+    margin: 0;
+}
+
+.tours-btns img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: auto;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.tours-btns img:hover {
+    transform: scale(1.1);
+}
